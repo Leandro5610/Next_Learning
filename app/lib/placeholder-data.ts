@@ -45,6 +45,11 @@ const customers = [
     name: 'Balazs Orban',
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
+  }, {
+    id: '13D046535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Lex Luthor',
+    email: 'lex@orban.com',
+    image_url: '/customers/balazs-orban.png',
   },
 ];
 
@@ -131,17 +136,17 @@ const invoices = [
 
 const revenue = [
   { month: 'Jan', revenue: 2000 },
-  { month: 'Feb', revenue: 1800 },
+  { month: 'Fev', revenue: 1800 },
   { month: 'Mar', revenue: 2200 },
   { month: 'Apr', revenue: 2500 },
-  { month: 'May', revenue: 2300 },
+  { month: 'Mai', revenue: 2300 },
   { month: 'Jun', revenue: 3200 },
   { month: 'Jul', revenue: 3500 },
   { month: 'Aug', revenue: 3700 },
-  { month: 'Sep', revenue: 2500 },
+  { month: 'Set', revenue: 2500 },
   { month: 'Oct', revenue: 2800 },
   { month: 'Nov', revenue: 3000 },
-  { month: 'Dec', revenue: 4800 },
+  { month: 'Dez', revenue: 4800 },
 ];
 
 export { users, customers, invoices, revenue };
